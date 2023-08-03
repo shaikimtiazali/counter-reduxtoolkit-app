@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.heading {
+  font-size: 50px;
+  color: aqua;
+  font-weight: 700;
+}
+
+.para {
+  font-size: 25px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button-container button {
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
